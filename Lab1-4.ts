@@ -1,7 +1,7 @@
 let income: number = 50000;
-let taxRate: number = 7;
-let Tax: number =income*0.07;
-let Net: number =income - income*0.07;
+let taxRate: number = 0.07;
+let Tax: number =income*taxRate;
+let Net: number =income - Tax;
 
 console.log("---Tax Calculator Rrport---");
 console.log("Gross income: %d",income);

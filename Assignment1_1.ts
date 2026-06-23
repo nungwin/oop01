@@ -11,7 +11,6 @@ let discountAmount: number = hasDiscount ? totalPrice * 0.10 : 0;
 
 let finalPrice: number = totalPrice - discountAmount;
 
-// 5. แสดงผลลัพธ์
 console.log(`========== รายงานการสั่งซื้อ ==========
 ชื่อสินค้า: ${productName}
 จำนวนที่ซื้อ: ${quantity} ชิ้น
